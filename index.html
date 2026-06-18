@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h1>STUDENT FORM</h1>
+     <div class="studentform_input">
+
+        
+        <table class="table_one">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" id="name_input"></td>
+            </tr>
+
+            <tr>
+                <th>age</th>
+                <td><input type="number" id="age_input"></td>
+            </tr>
+
+            <tr>
+                 <th>Gender</th>
+                <td class="gender">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                </td>
+                
+            </tr>
+
+            <tr>
+                <th>course</th>
+                <td><input type="text" id="course_input"></td>
+            </tr>
+
+            <tr>
+                <th>email</th>
+                <td><input type="text" id="email_input"></td>
+            </tr>
+
+            <tr>
+               <td colspan="2" class="save_btn">
+                    <button onclick="save()">Save</button>
+                </td>
+            </tr>
+            
+        </table>
+
+
+
+     </div>
+
+     <div>
+
+        <table class="table_two" id="table_two">
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>COURSE</th>
+                <th>GENDER</th>
+                <th>EMAIL</th>
+                <th>ACTION</th>
+            </tr>
+
+            
+
+        </table>
+
+     </div>
+
+  </main>
+    <script src="./script.js"></script>
+</body>
+</html>
